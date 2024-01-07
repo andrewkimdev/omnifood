@@ -28,7 +28,7 @@
   --- 05 SHADOWS
 
   --- 06 BORDER-RADIUS
-    - 9px
+    - 9px 11px
   --- 07 WHITESPACE
 
   - SPACING SYSTEM (px)
@@ -60,6 +60,11 @@
   --gray-8: #888;
   --gray-5: #555;
   --gray-3: #333;
+
+  --green-2: #b2f2bb;
+
+  --lime-5: #94d82d;
+  --yellow-5: #fcc419;
 }
 
 * {
@@ -77,6 +82,10 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--gray-5);
+}
+
+strong {
+  font-weight: 500;
 }
 
 /*******************************/
